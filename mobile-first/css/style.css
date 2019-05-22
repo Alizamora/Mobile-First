@@ -1,0 +1,12 @@
+/*
+Estilos de todos los post
+*/
+input:checked + .post {
+  height: auto; }
+
+.post {
+  transition: 0.5s;
+  height: 0px;
+  overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */

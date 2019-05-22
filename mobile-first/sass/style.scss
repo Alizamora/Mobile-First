@@ -1,0 +1,21 @@
+@import 'global/reset';
+@import 'global/font';
+@import 'global/global';
+
+@import 'utilities/variables.scss';
+@import 'utilities/functions.scss';
+@import 'utilities/mixins.scss';
+
+@import 'component/links';
+@import 'component/buttons';
+@import 'component/icons';
+@import 'component/images';
+@import 'component/banners';
+@import 'component/post';
+
+@import 'layout/navegation';
+@import 'layout/flexbox';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/tabs';
+@import 'layout/menu';

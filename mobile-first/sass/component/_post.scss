@@ -1,0 +1,21 @@
+/*
+Estilos de todos los post
+*/
+
+label img {
+  //width: 200px;
+}
+
+input {
+  //-webkit-appearance: none;
+}
+
+input:checked + .post {
+  height: auto;
+}
+
+.post {
+  transition: 0.5s;
+  height: 0px;
+  overflow: hidden;
+}

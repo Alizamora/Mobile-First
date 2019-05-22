@@ -4,23 +4,342 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
     <title>Practice #1</title>
   </head>
   <body>
-		<!-- Header -->
+    <!-- Header -->
     <header>
-			<button class="menu"></button>
-			<img src="" alt="Logo de la página">
-		</header>
+      <!--Menu-->
+      <label for="menu_open">
+        <!-- Icono del menu (librería)-->
+        <i class="fas fa-bars"></i>
+      </label>
+      <input type="checkbox" name="" id="menu_open" />
+      <nav id="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New post</a></li>
+          <li><a href="#">Favorite</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Log out</a></li>
+        </ul>
+      </nav>
 
-		<!-- Content-->
-		<div class="container">
+      <img src="img/logo.svg" alt="logo de la página" />
 
-		</div>
+      <div id="banner1">
+        <h2>You can use this app for everything that you ...</h2>
+        <div class="sliderSteps">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
 
-		<!-- Footer -->
-		<footer>
+      <nav id="navegacion_principal">
+        <ul>
+          <li><a href="#">Lasted</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Your Topics</a></li>
+        </ul>
+      </nav>
+    </header>
 
-		</footer>
+    <!-- Content-->
+    <div class="container">
+      <!-- Post #1 -->
+      <label for="post_open">
+        <img src="" alt="Imagen del articulo" class="img_post" />
+        <h4 class="name">Leo taciti</h4>
+        <span class="time">6 hrs ago</span>
+        <h3>penatibus eget ante massa fames quisque</h3>
+        <i class="fas fa-heart"></i>
+        <!-- Icono de un corazón-->
+        <span class="info">11</span>
+        <i class="fas fa-comment-alt"></i>
+        <!-- Icono de comentario-->
+        <span class="info">8</span>
+      </label>
+
+      <!--Input-->
+      <input type="checkbox" id="post_open" />
+      <div class="post">
+        <img src="" alt="Imagen del articulo" class="img_post_open" />
+        <h3 class="title article">penatibus eget ante massa fames quisque</h3>
+        <p class="article_paragraph">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
+          varius litora mollis, habitasse eget donec consequat class volutpat
+          platea nibh scelerisque. Volutpat libero dapibus varius accumsan
+          tempor odio inceptos mauris phasellus orci nisl, erat molestie fames
+          ornare venenatis ridiculus ac potenti tellus curabitur vivamus semper,
+          vehicula scelerisque viverra egestas platea elementum congue faucibus
+          risus mollis. Natoque habitasse iaculis maecenas suscipit tristique
+          nulla nullam, quisque sociis massa nostra rutrum feugiat primis,
+          semper suspendisse est mauris fermentum ultrices. Class praesent donec
+          mollis in leo malesuada sapien fusce mauris, vestibulum pulvinar eget
+          enim faucibus quam maecenas convallis viverra dignissim, fames
+          porttitor lobortis pellentesque dapibus dui sagittis imperdiet.
+          Tincidunt torquent nulla vehicula pharetra cras molestie nullam nisl
+          volutpat cursus ullamcorper, rhoncus interdum varius nascetur ut nam
+          ad cum libero vel, netus ornare sagittis velit mattis metus urna
+          commodo praesent id. Quis neque nunc class arcu curabitur risus lacus
+          tristique ac mus dapibus gravida pulvinar pretium mauris, fermentum
+          elementum quisque facilisi congue est iaculis suspendisse parturient
+          lobortis tempor sociis libero. Ut purus felis molestie vehicula
+          habitant tempor enim vitae platea, etiam velit est odio eget augue
+          integer nam torquent, consequat dignissim vulputate facilisis
+          phasellus morbi sociis cubilia.
+        </p>
+        <span class="line"></span><img src="" alt="" class="photo_profile" />
+        <p class="info">Write by</p>
+        <p class="name">Elit Massa</p>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
+          varius litora mollis, habitasse eget donec consequat class volutpat
+          platea nibh scelerisque.
+        </p>
+        <button class="follow">Follow</button>
+        <ul class="user_options">
+          <li class="like"><i class="fas fa-heart"></i></li>
+          <li class="commentary"><i class="fas fa-comment-alt"></i></li>
+          <li class="share"><i class="fas fa-share-alt"></i></li>
+        </ul>
+        <ul class="similar_article">
+          <li>Art</li>
+          <li>Social</li>
+          <li>Soccer</li>
+        </ul>
+      </div>
+
+      <!-- Post #2 -->
+      <label for="post_open2">
+        <img src="" alt="Imagen del articulo" class="img_post" />
+        <h4 class="name">Elit Massa</h4>
+        <span class="time">6 hrs ago</span>
+        <h3>penatibus eget ante massa</h3>
+        <i class="fas fa-heart"></i>
+        <!-- Icono de un corazón-->
+        <span>12</span>
+        <i class="fas fa-comment-alt"></i>
+        <!-- Icono de comentario-->
+        <span>33</span>
+      </label>
+
+      <!--Input-->
+      <input type="checkbox" id="post_open2" />
+      <div class="post">
+        <img src="" alt="Imagen del articulo" class="img_post_open" />
+        <h3 class="title article"></h3>
+        <p class="article_paragraph">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
+          varius litora mollis, habitasse eget donec consequat class volutpat
+          platea nibh scelerisque. Volutpat libero dapibus varius accumsan
+          tempor odio inceptos mauris phasellus orci nisl, erat molestie fames
+          ornare venenatis ridiculus ac potenti tellus curabitur vivamus semper,
+          vehicula scelerisque viverra egestas platea elementum congue faucibus
+          risus mollis. Natoque habitasse iaculis maecenas suscipit tristique
+          nulla nullam, quisque sociis massa nostra rutrum feugiat primis,
+          semper suspendisse est mauris fermentum ultrices. Class praesent donec
+          mollis in leo malesuada sapien fusce mauris, vestibulum pulvinar eget
+          enim faucibus quam maecenas convallis viverra dignissim, fames
+          porttitor lobortis pellentesque dapibus dui sagittis imperdiet.
+          Tincidunt torquent nulla vehicula pharetra cras molestie nullam nisl
+          volutpat cursus ullamcorper, rhoncus interdum varius nascetur ut nam
+          ad cum libero vel, netus ornare sagittis velit mattis metus urna
+          commodo praesent id. Quis neque nunc class arcu curabitur risus lacus
+          tristique ac mus dapibus gravida pulvinar pretium mauris, fermentum
+          elementum quisque facilisi congue est iaculis suspendisse parturient
+          lobortis tempor sociis libero. Ut purus felis molestie vehicula
+          habitant tempor enim vitae platea, etiam velit est odio eget augue
+          integer nam torquent, consequat dignissim vulputate facilisis
+          phasellus morbi sociis cubilia.
+        </p>
+        <span class="line"></span><img src="" alt="" class="photo_profile" />
+        <p class="info">Write by</p>
+        <p class="name">Elit Massa</p>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
+          varius litora mollis, habitasse eget donec consequat class volutpat
+          platea nibh scelerisque.
+        </p>
+        <button class="follow">Follow</button>
+        <ul class="user_options">
+          <li class="like"><i class="fas fa-heart"></i></li>
+          <li class="commentary"><i class="fas fa-comment-alt"></i></li>
+          <li class="share"><i class="fas fa-share-alt"></i></li>
+        </ul>
+        <ul class="similar_article">
+          <li>Art</li>
+          <li>Social</li>
+          <li>Soccer</li>
+        </ul>
+      </div>
+
+      <!-- Post #3 -->
+      <label for="post_open3">
+        <img src="" alt="Imagen del articulo" class="img_post" />
+        <h4 class="name">Elit Massa</h4>
+        <span class="time">6 hrs ago</span>
+        <h3>penatibus eget ante massa</h3>
+        <i class="fas fa-heart"></i>
+        <!-- Icono de un corazón-->
+        <span>36</span>
+        <i class="fas fa-comment-alt"></i>
+        <!-- Icono de comentario-->
+        <span>8</span>
+      </label>
+
+      <!--Input-->
+      <input type="checkbox" id="post_open3" />
+      <div class="post">
+        <img src="" alt="Imagen del articulo" class="img_post_open" />
+        <h3 class="title article"></h3>
+        <p class="article_paragraph">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
+          varius litora mollis, habitasse eget donec consequat class volutpat
+          platea nibh scelerisque. Volutpat libero dapibus varius accumsan
+          tempor odio inceptos mauris phasellus orci nisl, erat molestie fames
+          ornare venenatis ridiculus ac potenti tellus curabitur vivamus semper,
+          vehicula scelerisque viverra egestas platea elementum congue faucibus
+          risus mollis. Natoque habitasse iaculis maecenas suscipit tristique
+          nulla nullam, quisque sociis massa nostra rutrum feugiat primis,
+          semper suspendisse est mauris fermentum ultrices. Class praesent donec
+          mollis in leo malesuada sapien fusce mauris, vestibulum pulvinar eget
+          enim faucibus quam maecenas convallis viverra dignissim, fames
+          porttitor lobortis pellentesque dapibus dui sagittis imperdiet.
+          Tincidunt torquent nulla vehicula pharetra cras molestie nullam nisl
+          volutpat cursus ullamcorper, rhoncus interdum varius nascetur ut nam
+          ad cum libero vel, netus ornare sagittis velit mattis metus urna
+          commodo praesent id. Quis neque nunc class arcu curabitur risus lacus
+          tristique ac mus dapibus gravida pulvinar pretium mauris, fermentum
+          elementum quisque facilisi congue est iaculis suspendisse parturient
+          lobortis tempor sociis libero. Ut purus felis molestie vehicula
+          habitant tempor enim vitae platea, etiam velit est odio eget augue
+          integer nam torquent, consequat dignissim vulputate facilisis
+          phasellus morbi sociis cubilia.
+        </p>
+        <span class="line"></span><img src="" alt="" class="photo_profile" />
+        <p class="info">Write by</p>
+        <p class="name">Elit Massa</p>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
+          varius litora mollis, habitasse eget donec consequat class volutpat
+          platea nibh scelerisque.
+        </p>
+        <button class="follow">Follow</button>
+        <ul class="user_options">
+          <li class="like"><i class="fas fa-heart"></i></li>
+          <li class="commentary"><i class="fas fa-comment-alt"></i></li>
+          <li class="share"><i class="fas fa-share-alt"></i></li>
+        </ul>
+        <ul class="similar_article">
+          <li>Art</li>
+          <li>Social</li>
+          <li>Soccer</li>
+        </ul>
+      </div>
+
+      <!-- Post #4 -->
+      <label for="post_open4">
+        <img src="" alt="Imagen del articulo" class="img_post" />
+        <h4 class="name">Elit Massa</h4>
+        <span class="time">6 hrs ago</span>
+        <h3>penatibus eget ante massa</h3>
+        <i class="fas fa-heart"></i>
+        <!-- Icono de un corazón-->
+        <span>1</span>
+        <i class="fas fa-comment-alt"></i>
+        <!-- Icono de comentario-->
+        <span>4</span>
+      </label>
+
+      <!--Input-->
+      <input type="checkbox" id="post_open4" />
+      <div class="post">
+        <img src="" alt="Imagen del articulo" class="img_post_open" />
+        <h3 class="title article"></h3>
+        <p class="article_paragraph">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
+          varius litora mollis, habitasse eget donec consequat class volutpat
+          platea nibh scelerisque. Volutpat libero dapibus varius accumsan
+          tempor odio inceptos mauris phasellus orci nisl, erat molestie fames
+          ornare venenatis ridiculus ac potenti tellus curabitur vivamus semper,
+          vehicula scelerisque viverra egestas platea elementum congue faucibus
+          risus mollis. Natoque habitasse iaculis maecenas suscipit tristique
+          nulla nullam, quisque sociis massa nostra rutrum feugiat primis,
+          semper suspendisse est mauris fermentum ultrices. Class praesent donec
+          mollis in leo malesuada sapien fusce mauris, vestibulum pulvinar eget
+          enim faucibus quam maecenas convallis viverra dignissim, fames
+          porttitor lobortis pellentesque dapibus dui sagittis imperdiet.
+          Tincidunt torquent nulla vehicula pharetra cras molestie nullam nisl
+          volutpat cursus ullamcorper, rhoncus interdum varius nascetur ut nam
+          ad cum libero vel, netus ornare sagittis velit mattis metus urna
+          commodo praesent id. Quis neque nunc class arcu curabitur risus lacus
+          tristique ac mus dapibus gravida pulvinar pretium mauris, fermentum
+          elementum quisque facilisi congue est iaculis suspendisse parturient
+          lobortis tempor sociis libero. Ut purus felis molestie vehicula
+          habitant tempor enim vitae platea, etiam velit est odio eget augue
+          integer nam torquent, consequat dignissim vulputate facilisis
+          phasellus morbi sociis cubilia.
+        </p>
+        <span class="line"></span><img src="" alt="" class="photo_profile" />
+        <p class="info">Write by</p>
+        <p class="name">Elit Massa</p>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
+          varius litora mollis, habitasse eget donec consequat class volutpat
+          platea nibh scelerisque.
+        </p>
+        <button class="follow">Follow</button>
+        <ul class="user_options">
+          <li class="like"><i class="fas fa-heart"></i></li>
+          <li class="commentary"><i class="fas fa-comment-alt"></i></li>
+          <li class="share"><i class="fas fa-share-alt"></i></li>
+        </ul>
+        <ul class="similar_article">
+          <li>Art</li>
+          <li>Social</li>
+          <li>Soccer</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="banner2">
+      <img src="img/5.jpg" alt="" />
+      <div class="sliderSteps">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h2></h2>
+      <p></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <img src="img/logo.svg" alt="Logo de la página" />
+      <p>
+        Sollicitudin sem himenaeos praesent nisi eleifend nam non hendrerit
+        platea class netus a quam convallis, penatibus venenatis habitant
+        elementum erat viverra aenean leo tincidunt dapibus massa ad.
+      </p>
+      <span>copy bla bla</span>
+      <nav id="navegacion_principal">
+        <ul>
+          <li><a href="#">Lasted</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Your Topics</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
